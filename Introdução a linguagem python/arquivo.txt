@@ -1,0 +1,3 @@
+Ola mundo 
+texto exemplar para poder saber como 
+utilizar o manuseio atraves da linguagem python
