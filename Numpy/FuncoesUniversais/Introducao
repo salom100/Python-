@@ -1,0 +1,22 @@
+ufuncs significa "Funções Universais" e são funções NumPy que operam no ndarrayobjeto.
+
+Por que usar ufuncs?
+ufuncs são usados ​​para implementar a vetorização no NumPy, 
+que é muito mais rápido do que iterar sobre os elementos.
+
+Eles também fornecem transmissão e métodos adicionais, como reduzir, 
+acumular, etc., que são muito úteis para a computação.
+
+ufuncs também aceitam argumentos adicionais, como:
+
+where array booleano ou condição que define onde as operações devem ocorrer.
+
+dtype definindo o tipo de retorno dos elementos.
+
+out matriz de saída onde o valor de retorno deve ser copiado.
+
+
+O que é vetorização?
+A conversão de instruções iterativas em uma operação baseada em vetor é chamada de vetorização.
+
+É mais rápido porque as CPUs modernas são otimizadas para tais operações.
